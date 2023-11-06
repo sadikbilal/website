@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.row::after {
+    content: left; 
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: burlywood; background-color:antiquewhite;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+h1 {
+    border: 2px solid chocolate; font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    background-color: antiquewhite; font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    text-align: center; color: rgb(248, 186, 30);
+}
+
+div {
+    text-align: center;
+}
+
+body {
+    background-image: url("https://www.creativefabrica.com/wp-content/uploads/2021/10/29/Abstract-Watercolor-Background-Design-Graphics-19383758-1.jpg");
+}
