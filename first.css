@@ -1,0 +1,113 @@
+.row::after {
+    content: left; 
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: burlywood;
+    background-color:antiquewhite;
+    overflow: hidden;
+    border: 2px solid chocolate; 
+    font-weight: bold; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: max-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.title >h1 {
+    text-transform: uppercase;
+}
+
+.social-media div {
+    text-align: center;
+}
+
+.alt-title {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border: 2px solid green;
+    padding-bottom: 4px;
+}
+
+.alt-title:hover {
+    background-color: antiquewhite;
+    border: 2px solid coral;
+    color: blueviolet;
+}
+
+h2 {
+    background-color: antiquewhite; 
+    font-weight: bold; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    text-align: center; 
+    color: rgb(248, 186, 30);
+}
+
+.social-media {
+    text-align: center;
+}
+
+body {
+       background-image: url("https://www.creativefabrica.com/wp-content/uploads/2021/10/29/Abstract-Watercolor-Background-Design-Graphics-19383758-1.jpg");
+}
+
+.projects-main {
+    display: block;
+    border: 1px solid rgb(7, 225, 127);
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 5px;
+    height: 500px;
+}
+
+.account {
+    margin: auto;
+    border-radius: 50%;
+    width: 500px;
+    border-top-right-radius: 50%;
+    padding-right: 5px;
+    box-sizing: content-box;
+}
+
+.account img {
+    margin: auto;
+    border-radius: 50%;
+    width: 500px;
+    border-top-right-radius: 50%;
+    box-sizing: content-box;
+}
+
+.videos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    letter-spacing: 2px;
+    width: 30%;
+}
+
+.videos li {
+    list-style: none;
+    text-align: center;
+    font-weight: 200;
+    font-size: 18px;
+    font-style: oblique;
+    color: crimson;
+    margin-right: 40px;
+}
