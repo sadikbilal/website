@@ -1,3 +1,9 @@
+body {
+    background-image: url("./content/sboo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .row::after {
     content: left; 
     clear: both;
@@ -5,8 +11,8 @@
 }
 
 .title {
-    color: burlywood;
-    background-color:antiquewhite;
+    color: rgb(255, 93, 57);
+    background-color: rgba(18, 0, 27, 0.3);
     overflow: hidden;
     border: 2px solid chocolate; 
     font-weight: bold; 
@@ -36,18 +42,17 @@
     margin-left: auto;
     margin-right: auto;
     width: 20%;
-    border: 2px solid green;
+    border: 2px solid rgb(117, 128, 0);
     padding-bottom: 4px;
+    color: rgb(243, 90, 1) !important;
 }
 
 .alt-title:hover {
-    background-color: antiquewhite;
+    background-color: rgba(18, 0, 27, 0.3);
     border: 2px solid coral;
-    color: blueviolet;
 }
 
 h2 {
-    background-color: antiquewhite; 
     font-weight: bold; 
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -59,10 +64,6 @@ h3 {
 
 .social-media {
     text-align: center;
-}
-
-body {
-       background-image: url("https://www.creativefabrica.com/wp-content/uploads/2021/10/29/Abstract-Watercolor-Background-Design-Graphics-19383758-1.jpg");
 }
 
 .projects-main {
@@ -94,15 +95,16 @@ body {
 
 .videos {
     text-align: center;
-    font-weight: 200;
+    font-weight: 330;
     font-size: 18px;
     font-style: oblique;
-    color: crimson;
+    color: rgb(239, 243, 1);
     margin-right: 40px;
+    margin-left: 40px;
     text-decoration: none;
     display: block;
-    margin-left: 33%;
-    margin-right: 50%;
+    margin-left: 33.5%;
+    margin-right: auto;
     padding: 5px;
     letter-spacing: 2px;
     width: 30%;
